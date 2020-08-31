@@ -1,7 +1,7 @@
 # Ansible Role for Blender
 
 [![Travis](https://img.shields.io/travis/com/alvistack/ansible-role-blender.svg)](https://travis-ci.com/alvistack/ansible-role-blender)
-[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-blender.svg)](https://github.com/alvistack/ansible-role-blender)
+[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-blender.svg)](https://github.com/alvistack/ansible-role-blender/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-blender.svg)](https://github.com/alvistack/ansible-role-blender/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.blender-blue.svg)](https://galaxy.ansible.com/alvistack/blender)
 
