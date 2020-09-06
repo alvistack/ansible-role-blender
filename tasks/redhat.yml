@@ -30,7 +30,7 @@
   loop: "{{ _rpm_key }}"
   register: result
   until: result is succeeded
-  tags: bleachbit
+  tags: blender
 
 - name: yum-config-manager --add-repo
   yum:
