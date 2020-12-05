@@ -24,4 +24,5 @@ _apt_repository:
     state: "present"
 
 _apt:
+  - { state: "latest", name: "libllvm6.0" }
   - { state: "latest", name: "blender" }
