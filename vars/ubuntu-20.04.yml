@@ -15,14 +15,15 @@
 # limitations under the License.
 
 _apt_key:
-  - url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xD32A3245446233723DECE00F7281E3E842A98114"
-    id: "D32A3245446233723DECE00F7281E3E842A98114"
+  - url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xE996735927E427A733BB653E374C7797FB006459"
+    id: "E996735927E427A733BB653E374C7797FB006459"
     state: "present"
 
 _apt_repository:
-  - repo: "deb http://ppa.launchpad.net/thomas-schiex/blender/ubuntu focal main"
+  - repo: "deb http://ppa.launchpad.net/savoury1/ffmpeg4/ubuntu focal main"
+    state: "present"
+  - repo: "deb http://ppa.launchpad.net/savoury1/blender/ubuntu focal main"
     state: "present"
 
 _apt:
-  - { state: "latest", name: "libllvm6.0" }
   - { state: "latest", name: "blender" }

@@ -14,15 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-_apt_key:
-  - url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xD32A3245446233723DECE00F7281E3E842A98114"
-    id: "D32A3245446233723DECE00F7281E3E842A98114"
-    state: "present"
+_apt_key: []
 
-_apt_repository:
-  - repo: "deb http://ppa.launchpad.net/thomas-schiex/blender/ubuntu bionic main"
-    state: "present"
+_apt_repository: []
 
 _apt:
-  - { state: "latest", name: "libllvm6.0" }
   - { state: "latest", name: "blender" }
