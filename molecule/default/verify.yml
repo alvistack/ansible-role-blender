@@ -19,8 +19,8 @@
   remote_user: root
   become: true
   tasks:
-    - name: blender --version
+    - name: flatpak info org.blender.Blender
       ansible.builtin.command:
-        cmd: blender --version
+        cmd: flatpak info org.blender.Blender
       register: result
       changed_when: result is not succeeded
