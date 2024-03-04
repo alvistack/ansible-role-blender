@@ -1,6 +1,25 @@
 # Ansible Role for Blender
 
-## 9.1.0 - TBC
+## 9.4.0 - TBC
+
+## 9.3.0 - 2024-02-29
+
+-   Support Ansible community package 9.3.0
+-   Support AlmaLinux 8
+-   Support AlmaLinux 9
+-   Replace OBS repo from CentOS_8_Stream with AlmaLinux_8
+-   Replace OBS repo from CentOS_9_Stream with AlmaLinux_9
+
+## 9.2.0 - 2024-01-31
+
+-   Support Ansible community package 9.2.0
+-   Remove Ubuntu 23.04 support
+
+## 9.1.0 - 2023-12-25
+
+-   Support Ansible community package 9.1.0
+-   Remove Fedora 37 support
+-   Remove openSUSE Leap 15.4 support
 
 ## 9.0.0 - 2023-11-08
 
@@ -81,9 +100,7 @@
 ## 6.5.0 - 2022-10-14
 
 -   Support Ansible community package 6.5.0
-
 -   Support Ubuntu 22.10
-
 -   Support Fedora 37
 
 ## 6.4.0 - 2022-09-15
