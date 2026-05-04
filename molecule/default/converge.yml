@@ -24,4 +24,4 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.blender
+        name: alvistack.flatpak_blender
