@@ -1,4 +1,4 @@
-# Ansible Role for Blender
+# Ansible Role for Blender with Flatpak
 
 ## 13.6.0 - TBC
 

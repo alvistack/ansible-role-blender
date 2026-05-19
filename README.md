@@ -1,13 +1,13 @@
-# Ansible Role for Blender
+# Ansible Role for Blender with Flatpak
 
 <a href="https://alvistack.com" title="AlviStack" target="_blank"><img src="/alvistack.svg" height="75" alt="AlviStack"></a>
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-blender/master)](https://gitlab.com/alvistack/ansible-role-blender/-/pipelines)
-[![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-blender.svg)](https://github.com/alvistack/ansible-role-blender/tags)
-[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-blender.svg)](https://github.com/alvistack/ansible-role-blender/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.blender-blue.svg)](https://galaxy.ansible.com/alvistack/blender)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-flatpak_blender/master)](https://gitlab.com/alvistack/ansible-role-flatpak_blender/-/pipelines)
+[![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-flatpak_blender.svg)](https://github.com/alvistack/ansible-role-flatpak_blender/tags)
+[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-flatpak_blender.svg)](https://github.com/alvistack/ansible-role-flatpak_blender/blob/master/LICENSE)
+[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.flatpak_blender-blue.svg)](https://galaxy.ansible.com/alvistack/flatpak_blender)
 
-Ansible Role for Blender Installation.
+Ansible Role for Blender with Flatpak.
 
 ## Requirements
 
